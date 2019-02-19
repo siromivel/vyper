@@ -10,10 +10,15 @@ test_deps = [
     'eth-tester==0.1.0b33',
     'web3==4.8.2',
 ]
+lint_deps = [
+    'coveralls>=1.6,<2',
+    'flake8>=3.7,<4',
+]
 
 
 extras = {
-    'test': test_deps
+    'test': test_deps,
+    'lint': lint_deps,
 }
 
 
