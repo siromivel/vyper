@@ -9,6 +9,7 @@ test_deps = [
     'py-evm==0.2.0a34',
     'eth-tester==0.1.0b33',
     'web3==4.8.2',
+    'tox>=3.7,<4',
 ]
 lint_deps = [
     'coveralls>=1.6,<2',
